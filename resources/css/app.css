@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+
+@plugin 'tailwindcss-animate';
+
+@source '../views';
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+
+body {
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.textured-bg {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+.hero-section {
+    min-height: 800px;
+}
+.section {
+    min-height: 100vh;
+    padding: 6rem 0;
+}
+.card-hover:hover {
+    transform: translateY(-10px);
+    box-shadow:
+        0 20px 25px -5px rgba(0, 0, 0, 0.1),
+        0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.gradient-text {
+    background: linear-gradient(90deg, #16341f, #8a1c23);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
