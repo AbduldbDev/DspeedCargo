@@ -5,6 +5,12 @@ import '../css/app.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+declare global {
+    interface ImportMeta {
+        glob: (pattern: string, options?: { eager?: boolean }) => Record<string, any>;
+    }
+}
+
 createInertiaApp({
     resolve: (name) => {
         const pages = import.meta.glob('./pages/**/*.tsx', { eager: true });

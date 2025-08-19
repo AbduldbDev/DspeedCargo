@@ -7,20 +7,6 @@ export const footer = () => {
                         <div>
                             <h3 className="mb-4 text-xl font-bold">DSpeed Cargo</h3>
                             <p className="text-gray-300">Premium logistics and cargo delivery services across the Philippines.</p>
-                            <div className="mt-4 flex space-x-4">
-                                <a href="#" className="text-gray-300 transition duration-300 hover:text-white">
-                                    <i className="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#" className="text-gray-300 transition duration-300 hover:text-white">
-                                    <i className="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" className="text-gray-300 transition duration-300 hover:text-white">
-                                    <i className="fab fa-instagram"></i>
-                                </a>
-                                <a href="#" className="text-gray-300 transition duration-300 hover:text-white">
-                                    <i className="fab fa-linkedin-in"></i>
-                                </a>
-                            </div>
                         </div>
                         <div>
                             <h3 className="mb-4 text-xl font-bold">Quick Links</h3>

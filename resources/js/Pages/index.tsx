@@ -3,6 +3,7 @@ import Contact from '../components/contact';
 import Footer from '../components/footer';
 import Gallery from '../components/gallery';
 import Hero from '../components/hero';
+import Loader from '../components/Loader';
 import Navbar from '../components/navbar';
 import Projects from '../components/projects';
 import Rates from '../components/rates';
@@ -12,6 +13,7 @@ import SmoothScroll from '../utils/SmoothScroll';
 export default function Welcome() {
     return (
         <>
+            <Loader />
             <SmoothScroll />
             <Navbar />
             <Hero />

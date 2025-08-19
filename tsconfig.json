@@ -114,8 +114,6 @@
         },
         "jsx": "react-jsx"
     },
-    "compilerOptions": {
-        "types": ["vite/client"]
-    },
+
     "include": ["resources/js/**/*.ts", "resources/js/**/*.d.ts", "resources/js/**/*.tsx"]
 }

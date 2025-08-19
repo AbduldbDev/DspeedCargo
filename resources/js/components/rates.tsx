@@ -1,7 +1,7 @@
 export const rates = () => {
     return (
         <>
-            <section id="rates" className="section textured-bg overflow-hidden bg-gray-50">
+            <section id="rates" className="section textured-bg overflow-hidden">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="mb-16 text-center" data-aos="fade-up">
                         <h2 className="mb-4 text-4xl font-bold text-[#16341f]">Our Rates</h2>
