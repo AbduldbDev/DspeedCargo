@@ -25,7 +25,7 @@ export const Teams = () => {
                             data-aos="fade-up-right"
                             className="card-hover w-full overflow-hidden rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl sm:w-3/4 md:rounded-xl"
                         >
-                            <img src="Images/guil.jpg" alt="Angeline A. Francisco" className="h-72 w-full object-cover md:h-80" />
+                            <img src="Images/ceo.jpg" alt="Angeline A. Francisco" className="h-72 w-full object-cover md:h-80" />
                             <div className="p-4 md:p-6">
                                 <h3 className="mb-1 text-lg font-bold text-[#16341f] md:text-xl">DANGARAN, GUILLERMO G.</h3>
                                 <p className="text-sm text-gray-500 uppercase md:text-base">CHIEF EXECUTIVE OFFICER (CEO)</p>
