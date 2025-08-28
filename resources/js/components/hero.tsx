@@ -48,7 +48,7 @@ export const hero = () => {
                             </div>
                         </div>
                         <div className="relative mt-8 md:mt-0">
-                            <div className="mx-auto max-w-md rotate-1 transform rounded-2xl bg-[#16341f] p-1 shadow-2xl" data-aos="fade-left">
+                            <div className="mx-auto max-w-md rotate-1 transform rounded-2xl bg-[#16341f] p-1 shadow-lg" data-aos="fade-left">
                                 <iframe
                                     src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/DSpeedCargo/videos/1711796649471007/&autoplay=1&mute=1"
                                     className="h-auto w-full -rotate-1 transform rounded-2xl shadow-lg"

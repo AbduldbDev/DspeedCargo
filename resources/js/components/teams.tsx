@@ -9,16 +9,23 @@ export const Teams = () => {
                         <div className="mx-auto mt-3 h-1 w-16 bg-[#8a1c23] md:mt-4 md:w-20"></div>
                     </div>
 
-                    <h3 className="mb-5 text-center text-xl font-bold text-[#16341f] md:mb-6 md:text-2xl" data-aos="fade-up">
-                        Executives
-                    </h3>
+                    {/* Executive Leadership Section */}
+                    <div className="relative mb-10 md:mb-12" data-aos="fade-up">
+                        <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                            <div className="w-full border-t border-gray-200"></div>
+                        </div>
+                        <div className="relative flex justify-center">
+                            <span className="bg-white px-3 text-xl font-bold text-[#16341f] md:text-2xl">Executive Leadership</span>
+                        </div>
+                        <p className="mt-2 text-center text-sm text-gray-500 md:text-base">Guiding our vision and strategy</p>
+                    </div>
 
                     <div className="mb-10 grid grid-cols-1 place-items-center gap-6 sm:grid-cols-2 md:mb-12 md:gap-8">
                         <div
                             data-aos="fade-up-right"
                             className="card-hover w-full overflow-hidden rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl sm:w-3/4 md:rounded-xl"
                         >
-                            <img src="Images/ceo.jpg" alt="Angeline A. Francisco" className="h-72 w-full object-cover md:h-80" />
+                            <img src="Images/guil.jpg" alt="Angeline A. Francisco" className="h-72 w-full object-cover md:h-80" />
                             <div className="p-4 md:p-6">
                                 <h3 className="mb-1 text-lg font-bold text-[#16341f] md:text-xl">DANGARAN, GUILLERMO G.</h3>
                                 <p className="text-sm text-gray-500 uppercase md:text-base">CHIEF EXECUTIVE OFFICER (CEO)</p>
@@ -29,7 +36,7 @@ export const Teams = () => {
                             data-aos="fade-up-left"
                             className="card-hover w-full overflow-hidden rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl sm:w-3/4 md:rounded-xl"
                         >
-                            <img src="Images/ceo.jpg" alt="Head 2" className="h-72 w-full object-cover md:h-80" />
+                            <img src="Images/ceo.webp" alt="Head 2" className="h-72 w-full object-cover md:h-80" />
                             <div className="p-4 md:p-6">
                                 <h3 className="mb-1 text-lg font-bold text-[#16341f] md:text-xl">DANGARAN, HELEN B.</h3>
                                 <p className="text-sm text-gray-500 md:text-base">HEAD DIRECTOR</p>
@@ -37,27 +44,23 @@ export const Teams = () => {
                         </div>
                     </div>
 
-                    <h3 className="mb-5 text-center text-xl font-bold text-[#16341f] md:mb-6 md:text-2xl" data-aos="fade-up">
-                        Associates
-                    </h3>
+                    {/* Valued Associates Section */}
+                    <div className="relative mb-10 md:mb-12" data-aos="fade-up">
+                        <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                            <div className="w-full border-t border-gray-200"></div>
+                        </div>
+                        <div className="relative flex justify-center">
+                            <span className="bg-white px-3 text-xl font-bold text-[#16341f] md:text-2xl">Valued Associates</span>
+                        </div>
+                        <p className="mt-2 text-center text-sm text-gray-500 md:text-base">Driving our operations forward</p>
+                    </div>
 
-                    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:gap-8 lg:grid-cols-3">
+                    <div className="mb-10 grid grid-cols-1 place-items-center gap-6 sm:grid-cols-2 md:mb-12 md:gap-8">
                         <div
                             data-aos="fade-up-right"
-                            className="card-hover overflow-hidden rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl md:rounded-xl"
+                            className="card-hover w-full overflow-hidden rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl sm:w-3/4 md:rounded-xl"
                         >
-                            <img src="Images/ceo.jpg" alt="Team Member 1" className="h-64 w-full object-cover md:h-72" />
-                            <div className="p-4 md:p-6">
-                                <h3 className="mb-1 text-lg font-bold text-[#16341f] md:text-xl">CINDY A. SALAZAR</h3>
-                                <p className="text-sm text-gray-500 md:text-base">WAREHOUSE ADMINISTRATOR - MANILA / CUSTOMER SERVICE</p>
-                            </div>
-                        </div>
-
-                        <div
-                            data-aos="fade-up"
-                            className="card-hover overflow-hidden rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl md:rounded-xl"
-                        >
-                            <img src="Images/ceo.jpg" alt="Team Member 2" className="h-64 w-full object-cover md:h-72" />
+                            <img src="Images/ceo.webp" alt="Angeline A. Francisco" className="h-72 w-full object-cover md:h-80" />
                             <div className="p-4 md:p-6">
                                 <h3 className="mb-1 text-lg font-bold text-[#16341f] md:text-xl">ANGELINE A. FRANCISCO</h3>
                                 <p className="text-sm text-gray-500 md:text-base">WAREHOUSE ADMINISTRATOR - MANILA / CUSTOMER SERVICE</p>
@@ -66,12 +69,12 @@ export const Teams = () => {
 
                         <div
                             data-aos="fade-up-left"
-                            className="card-hover overflow-hidden rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl md:rounded-xl"
+                            className="card-hover w-full overflow-hidden rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl sm:w-3/4 md:rounded-xl"
                         >
-                            <img src="Images/ceo.jpg" alt="Team Member 3" className="h-64 w-full object-cover md:h-72" />
+                            <img src="Images/Benji.jpg" alt="Head 2" className="h-72 w-full object-cover md:h-80" />
                             <div className="p-4 md:p-6">
-                                <h3 className="mb-1 text-lg font-bold text-[#16341f] md:text-xl">LIZA JANE C. VIDAL</h3>
-                                <p className="text-sm text-gray-500 md:text-base">ACCOUNTING STAFF</p>
+                                <h3 className="mb-1 text-lg font-bold text-[#16341f] uppercase md:text-xl">Benjie Panganiban</h3>
+                                <p className="text-sm text-gray-500 md:text-base">WAREHOUSE ADMINISTRATOR - MANILA / CUSTOMER SERVICE</p>
                             </div>
                         </div>
                     </div>

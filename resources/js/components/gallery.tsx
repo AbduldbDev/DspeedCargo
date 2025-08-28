@@ -7,14 +7,14 @@ export const Gallery = () => {
 
     // Sample gallery data - replace with your actual images
     const galleryImages: GalleryImage[] = [
-        { id: 1, src: '/Images/6.png', alt: 'Delivery Truck' },
-        { id: 2, src: '/Images/6.png', alt: 'Warehouse Operations' },
-        { id: 3, src: '/Images/6.png', alt: 'Cargo Handling' },
-        { id: 4, src: '/Images/6.png', alt: 'Logistics Team' },
-        { id: 5, src: '/Images/6.png', alt: 'Fleet Management' },
-        { id: 6, src: '/Images/6.png', alt: 'Shipping Process' },
-        { id: 7, src: '/Images/6.png', alt: 'Customer Service' },
-        { id: 8, src: '/Images/6.png', alt: 'Distribution Center' },
+        { id: 1, src: '/Gallery/1.png', alt: 'Dspeed Cargo' },
+        { id: 2, src: '/Gallery/2.png', alt: 'Dspeed Cargo' },
+        { id: 3, src: '/Gallery/3.png', alt: 'Dspeed Cargo' },
+        { id: 4, src: '/Gallery/4.png', alt: 'Dspeed Cargo' },
+        { id: 5, src: '/Gallery/5.png', alt: 'Dspeed Cargo' },
+        { id: 6, src: '/Gallery/6.png', alt: 'Dspeed Cargo' },
+        { id: 7, src: '/Gallery/7.png', alt: 'Dspeed Cargo' },
+        { id: 8, src: '/Gallery/8.png', alt: 'Dspeed Cargo' },
     ];
 
     const openModal = (image: GalleryImage) => {

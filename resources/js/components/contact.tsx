@@ -48,9 +48,7 @@ export const Contact = () => {
         e.preventDefault();
         form.post(`/contactus`, {
             forceFormData: true,
-            onSuccess: () => {
-                // Form reset is handled in the useEffect
-            },
+            onSuccess: () => {},
         });
     };
 
@@ -150,7 +148,10 @@ export const Contact = () => {
                         </div>
 
                         {/* Contact Form - Allow natural height */}
-                        <div className="rounded-lg bg-white p-5 shadow-md md:rounded-xl md:p-8 lg:w-1/2 lg:self-start" data-aos="fade-left">
+                        <div
+                            className="rounded-lg border-1 border-gray-100 bg-white p-5 shadow-lg md:rounded-xl md:p-8 lg:w-1/2 lg:self-start"
+                            data-aos="fade-left"
+                        >
                             <h3 className="mb-4 text-xl font-bold text-[#16341f] md:mb-5 md:text-2xl">Send us a message</h3>
                             <form className="space-y-4" onSubmit={handleSubmit}>
                                 <div>
