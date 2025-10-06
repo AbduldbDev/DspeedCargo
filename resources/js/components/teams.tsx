@@ -63,7 +63,7 @@ export const Teams = () => {
                             <img src="Images/ceo.webp" alt="Angeline A. Francisco" className="h-72 w-full object-cover md:h-80" />
                             <div className="p-4 md:p-6">
                                 <h3 className="mb-1 text-lg font-bold text-[#16341f] md:text-xl">ANGELINE A. FRANCISCO</h3>
-                                <p className="text-sm text-gray-500 md:text-base">WAREHOUSE ADMINISTRATOR - MANILA / CUSTOMER SERVICE</p>
+                                <p className="text-sm text-gray-500 md:text-base">SOCIAL MEDIA MANAGER - MANILA / ENCODER</p>
                             </div>
                         </div>
 
@@ -71,9 +71,9 @@ export const Teams = () => {
                             data-aos="fade-up-left"
                             className="card-hover w-full overflow-hidden rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl sm:w-3/4 md:rounded-xl"
                         >
-                            <img src="Images/Benji.jpg" alt="Head 2" className="h-72 w-full object-cover md:h-80" />
+                            <img src="Images/juniedick.png" alt="Head 2" className="h-72 w-full object-cover md:h-80" />
                             <div className="p-4 md:p-6">
-                                <h3 className="mb-1 text-lg font-bold text-[#16341f] uppercase md:text-xl">Benjie Panganiban</h3>
+                                <h3 className="mb-1 text-lg font-bold text-[#16341f] uppercase md:text-xl">Junidick G. Bayeng </h3>
                                 <p className="text-sm text-gray-500 md:text-base">WAREHOUSE ADMINISTRATOR - MANILA / CUSTOMER SERVICE</p>
                             </div>
                         </div>
