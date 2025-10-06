@@ -20,11 +20,9 @@ class EmailController extends Controller
         ]);
 
         try {
-            Mail::to('abduldb09@gmail.com')->send(new ContactMail($validated));
-
+            Mail::to('dspeedcargo@gmail.com')->send(new ContactMail($validated));
             return back()->with('success', 'Your message has been sent successfully!');
         } catch (\Exception $e) {
-
             return back()->withErrors([
                 'mail_error' => 'Sorry, we could not send your message. Please try again later.',
                 'details' => config('app.debug') ? $e->getMessage() : null,
